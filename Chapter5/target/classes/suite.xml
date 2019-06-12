@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name = "suiteTest">
+    <test name = "loginTest">
+        <classes>
+            <class name = "com.juxinli.suite.SuiteConfig"/>
+            <class name = "com.juxinli.suite.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name = "payTest">
+        <classes>
+            <class name = "com.juxinli.suite.LoginTest"/>
+            <class name = "com.juxinli.suite.PayTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<suite name = "parameter">
+    <test name = "para">
+        <classes>
+            <parameter name = "name" value = "zhangsan"/>
+            <parameter name = "age" value = "10"/>
+            <class name = "com.juxinli.parameter.ParameterTest"/>
+        </classes>
+    </test>
+</suite>

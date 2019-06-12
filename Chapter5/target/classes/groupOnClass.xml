@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name = "suit">
+
+    <test name = "test222">
+        <groups>
+            <run>
+                <include name = "teacher"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "com.juxinli.groups.GroupOnClass1"/>
+            <class name = "com.juxinli.groups.GroupOnClass2"/>
+            <class name = "com.juxinli.groups.GroupOnClass3"/>
+        </classes>
+    </test>
+
+    <test name = "test1111">
+        <classes>
+            <class name = "com.juxinli.groups.GroupOnClass1"/>
+            <class name = "com.juxinli.groups.GroupOnClass2"/>
+            <class name = "com.juxinli.groups.GroupOnClass3"/>
+        </classes>
+    </test>
+
+
+</suite>
